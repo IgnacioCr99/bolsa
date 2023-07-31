@@ -6,7 +6,7 @@ export const Navbar = () => {
     <div className="nav-fixed"> 
  <nav className="topnav navbar navbar-expand shadow navbar-light bg-white" id="sidenavAccordion">
   <a className="navbar-brand" href="../home/main.php"><img src="../assets/img/logo_contempora.png" style={{height: 'auto', width: 'auto'}} alt className="img-fluid" /></a>
-  <button className="btn btn-icon btn-transparent-dark order-1 order-lg-0 mr-lg-2" id="sidebarToggle" href="#"><i data-feather="menu" /></button>
+  <button className="btn btn-icon btn-transparent-dark order-1 order-lg-0 mr-lg-2" id="sidebarToggle" href="#"><i data-feather="menu" ></i></button>
   <ul className="navbar-nav align-items-center ml-auto">
     <li className="nav-item dropdown no-caret mr-3 d-none d-md-inline">
       <a className="nav-link dropdown-toggle" id="navbarDropdownDocs" href="javascript:void(0);" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

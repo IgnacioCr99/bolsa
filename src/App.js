@@ -9,9 +9,13 @@ function App() {
   return (
     <div className="nav-fixed">
       <Navbar />
+
+      <div id="layoutSidenav">
       <Sidebar />
-      <Footer />
+      
       <Home />
+      </div>
+      <Footer />
     </div>
   );
 }
