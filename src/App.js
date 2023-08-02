@@ -8,19 +8,29 @@ import { ListaOperaciones } from './Components/Pages/ListaOperaciones';
 import { ListaInvercionista } from './Components/Pages/ListaInvercionista';
 import { VerOperacion } from './Components/Pages/VerOperacion';
 import { AgregarOperacion } from './Components/Pages/AgregarOperacion';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
+    <Router>
     <div id="body" className="nav-fixed">
       <Navbar />
 
       <div id="layoutSidenav">
       <Sidebar />
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/ListaOperaciones' element={<ListaOperaciones/>} />
+        <Route path='/ListaInvercionista' element={<ListaInvercionista/>} />
+        <Route path='/VerOperacion' element={<VerOperacion/>} />
+        <Route path='/AgregarOperacion' element={<AgregarOperacion/>} />'
+        
+      </Routes>
       
-      <AgregarOperacion/>
       </div>
       <Footer />
     </div>
+    </Router>
   );
 }
 

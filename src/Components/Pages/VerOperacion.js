@@ -65,16 +65,16 @@ export const VerOperacion = () => {
             <table className="table table-bordered table-hover" id="dataTable1" width="100%" cellSpacing={0}>
               <thead>
                 <tr>
-                  <th>conlumna1</th>
-                  <th>conlumna2</th>
+                  <th>Numero de Monto</th>
+                  <th>Monto Transado</th>
                   <th>conlumna3</th>
                   <th>conlumna4</th>
                 </tr>
               </thead>
               <tfoot>
                 <tr>
-                  <th>conlumna1</th>
-                  <th>conlumna2</th>
+                <th>Numero de Monto</th>
+                  <th>Monto Transado</th>
                   <th>conlumna3</th>
                   <th>conlumna4</th>
                 </tr>
