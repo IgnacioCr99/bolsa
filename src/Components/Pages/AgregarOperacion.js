@@ -53,7 +53,7 @@ export const AgregarOperacion = () => {
   </div>
   <div className="col-xxl-12 col-xl-12 mt-5">
     <div className="card">
-      <div className="card-header">Agregar Inversionista</div>
+      <div className="card-header">Agregar Operación</div>
       <div className="card-body">
         <form>
           <div className="form-row">

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const ListaInvercionista = () => {
+export const ListaInversionista = () => {
   return (
     <div id="layoutSidenav_content">
   <main><header className="page-header page-header-dark bg-gradient-primary-to-secondary pb-10">
@@ -67,7 +67,7 @@ export const ListaInvercionista = () => {
           </div>
         </div>
         <div className="datatable table-responsive">
-          <table className="table table-bordered table-hover" id="dataTable1" width="100%" cellSpacing={0}>
+          <table className="table table-responsive table-bordered table-hover" id="dataTable1" width="100%" cellSpacing={0}>
             <thead>
               <tr>
                 <th>conlumna1</th>

@@ -5,10 +5,12 @@ import { Sidebar } from './Components/Sidebar/Sidebar';
 import { Footer } from './Components/Footer/Footer';
 import { Home } from './Components/Pages/Home';
 import { ListaOperaciones } from './Components/Pages/ListaOperaciones';
-import { ListaInvercionista } from './Components/Pages/ListaInvercionista';
+import { ListaInversionista } from './Components/Pages/ListaInversionista';
 import { VerOperacion } from './Components/Pages/VerOperacion';
 import { AgregarOperacion } from './Components/Pages/AgregarOperacion';
+import { SaldoEnCustodia } from './Components/Pages/SaldoEnCustodia';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { ListaPagosBolsa } from './Components/Pages/ListaPagosBolsa';
 
 function App() {
   return (
@@ -21,15 +23,17 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/ListaOperaciones' element={<ListaOperaciones/>} />
-        <Route path='/ListaInvercionista' element={<ListaInvercionista/>} />
+        <Route path='/ListaInversionista' element={<ListaInversionista/>} />
+        <Route path='/ListaPagosBolsa' element={<ListaPagosBolsa/>}/>
         <Route path='/VerOperacion' element={<VerOperacion/>} />
         <Route path='/AgregarOperacion' element={<AgregarOperacion/>} />'
-        
+        <Route path='/SaldoEnCustodia'element={<SaldoEnCustodia/>}/>
       </Routes>
       
       </div>
       <Footer />
     </div>
+    
     </Router>
   );
 }

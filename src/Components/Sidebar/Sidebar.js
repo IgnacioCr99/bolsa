@@ -20,27 +20,27 @@ export const Sidebar = () => {
             <div className="sidenav-collapse-arrow"><i className="fas fa-angle-right" /></div>
           </Link> 
           <div className="sidenav-menu-heading">Inversionista</div>
-          <Link className="nav-link nav-linkcmp" to="/ListaInvercionista">
+          <Link className="nav-link nav-linkcmp" to="/ListaInversionista">
             <div className="nav-link-icon"><i className="fas fa-solid fa-handshake" /></div>
             Lista Inversionista
             <div className="sidenav-collapse-arrow"><i className="fas fa-angle-right" /></div>
           </Link>
-          <a className="nav-link nav-linkcmp" href="../inversionista/saldocustodia.php">
+          <Link className="nav-link nav-linkcmp" to="/SaldoEnCustodia">
             <div className="nav-link-icon"><i className="fas fa-solid fa-lock" /></div>
             Saldo Custodia
             <div className="sidenav-collapse-arrow"><i className="fas fa-angle-right" /></div>
-          </a>
+          </Link>
           <a className="nav-link nav-linkcmp" href="../inversionista/cartola_inversionista.php">
             <div className="nav-link-icon"><i className="fas fa-solid fa-folder" /></div>
             Cartola Inversionista
             <div className="sidenav-collapse-arrow"><i className="fas fa-angle-right" /></div>
           </a>
           <div className="sidenav-menu-heading">Pagos Bolsa</div>
-          <a className="nav-link nav-linkcmp" href="../pagos_bolsa/pagobolsa.php?listpagobolsa=listpagobolsa">
+          <Link className="nav-link nav-linkcmp" to="/ListaPagosBolsa">
             <div className="nav-link-icon"><i className="fas fa-regular fa-money-bill" /></div>
             Lista Pagos Bolsa
             <div className="sidenav-collapse-arrow"><i className="fas fa-angle-right" /></div>
-          </a>
+          </Link>
           <div className="sidenav-menu-heading">Ejecutivos</div>
           <a className="nav-link nav-linkcmp" href="../ejecutivos/ejecutivos.php?listeje=listeje">
             <div className="nav-link-icon"><i className="fas fa-regular fa-address-book" /></div>
