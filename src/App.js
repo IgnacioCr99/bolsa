@@ -11,6 +11,8 @@ import { AgregarOperacion } from './Components/Pages/AgregarOperacion';
 import { SaldoEnCustodia } from './Components/Pages/SaldoEnCustodia';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ListaPagosBolsa } from './Components/Pages/ListaPagosBolsa';
+import { ListaCedente } from './Components/Pages/ListaCedente';
+import { ListaPagadores } from './Components/Pages/ListaPagadores';
 
 function App() {
   return (
@@ -26,8 +28,10 @@ function App() {
         <Route path='/ListaInversionista' element={<ListaInversionista/>} />
         <Route path='/ListaPagosBolsa' element={<ListaPagosBolsa/>}/>
         <Route path='/VerOperacion' element={<VerOperacion/>} />
-        <Route path='/AgregarOperacion' element={<AgregarOperacion/>} />'
+        <Route path='/AgregarOperacion' element={<AgregarOperacion/>} />
         <Route path='/SaldoEnCustodia'element={<SaldoEnCustodia/>}/>
+        <Route path='/ListaCedente' element={<ListaCedente/>}/>
+        <Route path='/ListaPagadores' element={<ListaPagadores/>}/>
       </Routes>
       
       </div>

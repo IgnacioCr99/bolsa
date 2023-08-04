@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const ListaPagosBolsa = () => {
   return (
@@ -33,18 +34,6 @@ export const ListaPagosBolsa = () => {
               <div className="col-xxl-12 col-xl-12 mt-5">
                 <div className="card">
                   <div className="card-header">Listado de pagos Bolsa</div>
-                  <div className="card-body">
-                    <div className="col-lg-12 ">
-                      <div className="row">
-                        <div className="form-group mr-3">
-                          <label htmlFor="fileupload">
-                            <div className="btn btn-contempora2 btn-sm ">
-                              <a href="operaciones.php?crearop=crearop"><span><i data-feather="upload" /> Cargar Operación</span></a>
-                            </div>
-                          </label>
-                        </div> 
-                      </div>
-                    </div>
                     <div className="datatable table-responsive-xxl">
                       <table className="table table-responsive table-hover" id="dataTable1" width="100%" cellSpacing={0}>
                         <thead>
@@ -95,7 +84,7 @@ export const ListaPagosBolsa = () => {
                             <td>569778892</td>
                             <td>
                               
-                              <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><a href="operaciones.php?detalleop=detalleop"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></a></button>
+                              <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><Link to="/VerOperacion"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></Link></button>
                               
                             </td>
                           </tr>
@@ -147,8 +136,15 @@ export const ListaPagosBolsa = () => {
           </div>
         </div>
       </div>
+      <footer className="footer mt-auto footer-light">
+  <div className="container-fluid">
+    <div className="row">
+      <div className="col-md-6 small">Copyright © Contempora S.A 2020</div>
     </div>
-    </div>  
+  </div>
+</footer>
+    </div>
+    
     
   )
 }

@@ -53,7 +53,7 @@ export const ListaInversionista = () => {
   </div>
   <div className="col-xxl-12 col-xl-12 mt-5">
     <div className="card">
-      <div className="card-header">Listado Inversionista</div>
+      <div className="card-header">Lista de Inversionistas</div>
       <div className="card-body">
         <div className="col-lg-12 ">
           <div className="row">
@@ -70,29 +70,21 @@ export const ListaInversionista = () => {
           <table className="table table-responsive table-bordered table-hover" id="dataTable1" width="100%" cellSpacing={0}>
             <thead>
               <tr>
-                <th>conlumna1</th>
-                <th>conlumna2</th>
-                <th>conlumna3</th>
-                <th>conlumna4</th>
+                <th>Rut</th>
+                <th>Correo</th>
+                <th>Nombre</th>
+               
               </tr>
             </thead>
-            <tfoot>
-              <tr>
-                <th>conlumna1</th>
-                <th>conlumna2</th>
-                <th>conlumna3</th>
-                <th>conlumna4</th>
-              </tr>
-            </tfoot>
             <tbody>
               <tr>
                 <td>juan@empresa1.com</td>
                 <td>Juan Astorga</td>
                 <td>569778892</td>
                 <td>
-                  <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><a href="operaciones.php?editarop=editarop"><i data-feather="edit" /></a></button>
-                  <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><a href="operaciones.php?detalleop=detalleop"><i data-feather="eye" /></a></button>
-                  <button className="btn btn-datatable btn-icon btn-transparent-dark"><i data-feather="trash-2" /></button>
+                  
+                  <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><a href="operaciones.php?detalleop=detalleop"><i data-feather="eye" /><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></a></button>
+                  
                 </td>
               </tr>
               <tr>
@@ -100,9 +92,8 @@ export const ListaInversionista = () => {
                 <td>Rodolfo Medina</td>
                 <td>34534543</td>
                 <td>
-                  <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><a href="operaciones.php?editarop=editarop"><i data-feather="edit" /></a></button>
-                  <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><a href="operaciones.php?detalleop=detalleop"><i data-feather="eye" /></a></button>
-                  <button className="btn btn-datatable btn-icon btn-transparent-dark"><i data-feather="trash-2" /></button>
+                                    <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><a href="operaciones.php?detalleop=detalleop"><i data-feather="eye" /><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></a></button>
+                  
                 </td>
               </tr>
             </tbody>
@@ -123,6 +114,14 @@ export const ListaInversionista = () => {
       </div>
     </div>
   </main>
+  <footer className="footer mt-auto footer-light">
+  <div className="container-fluid">
+    <div className="row">
+      <div className="col-md-6 small">Copyright © Contempora S.A 2020</div>
+    </div>
+  </div>
+</footer>
+
 </div>
 
   )

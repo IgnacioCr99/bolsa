@@ -30,30 +30,26 @@ export const Sidebar = () => {
             Saldo Custodia
             <div className="sidenav-collapse-arrow"><i className="fas fa-angle-right" /></div>
           </Link>
-          <a className="nav-link nav-linkcmp" href="../inversionista/cartola_inversionista.php">
-            <div className="nav-link-icon"><i className="fas fa-solid fa-folder" /></div>
-            Cartola Inversionista
-            <div className="sidenav-collapse-arrow"><i className="fas fa-angle-right" /></div>
-          </a>
           <div className="sidenav-menu-heading">Pagos Bolsa</div>
           <Link className="nav-link nav-linkcmp" to="/ListaPagosBolsa">
             <div className="nav-link-icon"><i className="fas fa-regular fa-money-bill" /></div>
             Lista Pagos Bolsa
             <div className="sidenav-collapse-arrow"><i className="fas fa-angle-right" /></div>
           </Link>
-          <div className="sidenav-menu-heading">Ejecutivos</div>
-          <a className="nav-link nav-linkcmp" href="../ejecutivos/ejecutivos.php?listeje=listeje">
-            <div className="nav-link-icon"><i className="fas fa-regular fa-address-book" /></div>
-            Lista Ejecutivos
-            <div className="sidenav-collapse-arrow"><i className="fas fa-angle-right" /></div>
-          </a>
+         
           <div className="sidenav-menu-heading">Pagadores</div>
-          <a className="nav-link nav-linkcmp" href="../pagadores/pagadores.php?listpag=listpag">
+          <Link className="nav-link nav-linkcmp" to="/ListaPagadores">
             <div className="nav-link-icon"><i className="fas fa-regular fa-users" /></div>
             Lista Pagadores
             <div className="sidenav-collapse-arrow"><i className="fas fa-angle-right" /></div>
-          </a>
+          </Link>
+          <Link className="nav-link nav-linkcmp" to="/ListaCedente">
+            <div className="nav-link-icon"><i className="fas fa-regular fa-users" /></div>
+            Lista Cedentes
+            <div className="sidenav-collapse-arrow"><i className="fas fa-angle-right" /></div>
+          </Link>
         </div>
+        
       </div>
       <div className="sidenav-footer">
         <div className="sidenav-footer-content">
