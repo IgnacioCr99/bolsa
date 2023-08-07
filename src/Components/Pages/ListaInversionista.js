@@ -78,9 +78,9 @@ export const ListaInversionista = () => {
             </thead>
             <tbody>
               <tr>
-                <td>juan@empresa1.com</td>
-                <td>Juan Astorga</td>
-                <td>569778892</td>
+                <td>10321057-7</td>
+                <td></td>
+                <td>CAROLINA ANDREA MATUS DIAZ</td>
                 <td>
                   
                   <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><a href="operaciones.php?detalleop=detalleop"><i data-feather="eye" /><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></a></button>
@@ -88,11 +88,42 @@ export const ListaInversionista = () => {
                 </td>
               </tr>
               <tr>
-                <td>rodolfo@empresa2.com</td>
-                <td>Rodolfo Medina</td>
-                <td>34534543</td>
+                <td>10321057-7</td>
+                <td></td>
+                <td>CAROLINA ANDREA MATUS DIAZ</td>
                 <td>
-                                    <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><a href="operaciones.php?detalleop=detalleop"><i data-feather="eye" /><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></a></button>
+                  
+                  <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><a href="operaciones.php?detalleop=detalleop"><i data-feather="eye" /><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></a></button>
+                  
+                </td>
+              </tr>
+              <tr>
+                <td>18018935-1</td>
+                <td></td>
+                <td>LEONARDO ERNESTO OLIVERI TOLEDO</td>
+                <td>
+                  
+                  <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><a href="operaciones.php?detalleop=detalleop"><i data-feather="eye" /><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></a></button>
+                  
+                </td>
+              </tr>
+              <tr>
+                <td>76413952-6</td>
+                <td></td>
+                <td>INVERSIONES AUQUINCO LIMITADA</td>
+                <td>
+                  
+                  <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><a href="operaciones.php?detalleop=detalleop"><i data-feather="eye" /><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></a></button>
+                  
+                </td>
+              </tr>
+              <tr>
+                <td>76267151-4</td>
+                <td></td>
+                <td>INVERSIONES AURORA S.A</td>
+                <td>
+                  
+                  <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><a href="operaciones.php?detalleop=detalleop"><i data-feather="eye" /><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></a></button>
                   
                 </td>
               </tr>

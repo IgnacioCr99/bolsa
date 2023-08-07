@@ -38,50 +38,57 @@ export const ListaPagosBolsa = () => {
                       <table className="table table-responsive table-hover" id="dataTable1" width="100%" cellSpacing={0}>
                         <thead>
                           <tr>
-                          <th>fecha de operación</th>
-                            <th>fecha de liquidación</th>
-                            <th>numero de lote</th>
-                            <th>rut del deudor</th>
-                            <th>nombre del deudor</th>
-                            <th>nemotecnico</th>
-                            <th>fecha de vencmiento</th>
-                            <th>monto transado</th>
-                            <th>rut inversionista</th>
-                            <th>nombre inversionista</th>
-                            <th>rut cedente</th>
-                            <th>nombre cedente</th>
+                          <th>Folio</th>
+                            <th>Tipo</th>
+                            <th>Monto Factura</th>
+                            <th>Monto Abono</th>
+                            <th>Monto Pagado PX.</th>
+                            <th>Monto Custodia</th>
+                            <th>Monto Pagado Tenedor</th>
+                            <th>Rut Pagador</th>
+                            <th>Pagador</th>
+                            <th>Vendedor</th>
+                           
+                            <th>Fecha Ult Abono</th>
+                            <th>Origen de Pago</th>
+                            <th>Fecha Vencimiento PTX</th>
+                            <th>Estado Anterior</th>
                           </tr>
                         </thead>
                         <tfoot>
                           <tr>
-                          <th>fecha de operación</th>
-                            <th>fecha de liquidación</th>
-                            <th>numero de lote</th>
-                            <th>rut del deudor</th>
-                            <th>nombre del deudor</th>
-                            <th>nemotecnico</th>
-                            <th>fecha de vencmiento</th>
-                            <th>monto transado</th>
-                            <th>rut inversionista</th>
-                            <th>nombre inversionista</th>
-                            <th>rut cedente</th>
-                            <th>nombre cedente</th>
+                          <th>Folio</th>
+                            <th>Tipo</th>
+                            <th>Monto Factura</th>
+                            <th>Monto Abono</th>
+                            <th>Monto Pagado PX.</th>
+                            <th>Monto Custodia</th>
+                            <th>Monto Pagado Tenedor</th>
+                            <th>Rut Pagador</th>
+                            <th>Pagador</th>
+                            <th>Vendedor</th>
+                            <th>Fecha Ult Abono</th>
+                            <th>Origen de Pago</th>
+                            <th>Fecha Vencimiento PTX</th>
+                            <th>Estado Anterior</th>
                           </tr>
                         </tfoot>
                         <tbody>
                           <tr>
-                            <td>juan@empresa1.com</td>
-                            <td>Juan Astorga</td>
-                            <td>569778892</td>
-                            <td>juan@empresa1.com</td>
-                            <td>Juan Astorga</td>
-                            <td>569778892</td>
-                            <td>juan@empresa1.com</td>
-                            <td>Juan Astorga</td>
-                            <td>569778892</td>
-                            <td>juan@empresa1.com</td>
-                            <td>Juan Astorga</td>
-                            <td>569778892</td>
+                            <td>28393</td>
+                            <td>33</td>
+                            <td>$671.911</td>
+                            <td>$671.911</td>
+                            <td>$671.911</td>
+                            <td>$0</td>
+                            <td>$671.911</td>
+                            <td>99999999-9</td>
+                            <td>COMERCIALIZACION Y SERVICIOS HS PANELES LIMITADA</td>
+                            <td>Contempora Corredores De Bolsa de Productos S.A.</td>
+                            <td>05/07/2023</td>
+                            <td>PAGADOR</td>
+                            <td>11/07/2023</td>
+                            <td>En Custodia</td>
                             <td>
                               
                               <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><Link to="/VerOperacion"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></Link></button>
@@ -89,40 +96,86 @@ export const ListaPagosBolsa = () => {
                             </td>
                           </tr>
                           <tr>
-                          <td>juan@empresa1.com</td>
-                            <td>Juan Astorga</td>
-                            <td>569778892</td>
-                            <td>juan@empresa1.com</td>
-                            <td>Juan Astorga</td>
-                            <td>569778892</td>
-                            <td>juan@empresa1.com</td>
-                            <td>Juan Astorga</td>
-                            <td>569778892</td>
-                            <td>juan@empresa1.com</td>
-                            <td>Juan Astorga</td>
-                            <td>569778892</td>
+                          <td>249</td>
+                            <td>33</td>
+                            <td>$6.390.895</td>
+                            <td>$6.071.350</td>
+                            <td>$6.071.350</td>
+                            <td>$0</td>
+                            <td>$6.071.350</td>
+                            <td>96963440-6</td>
+                            <td>NUEVOSUR</td>
+                            <td>Contempora Corredores De Bolsa de Productos S.A.</td>
+                            <td>05/07/2023</td>
+                            <td>DEPOSITATNTE</td>
+                            <td>04/07/2023</td>
+                            <td>En Custodia</td>
                             <td>
                               
-                              <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><a href="operaciones.php?detalleop=detalleop"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></a></button>
+                              <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><Link to="/VerOperacion"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></Link></button>
                               
                             </td>
                           </tr>
                           <tr>
-                          <td>juan@empresa1.com</td>
-                            <td>Juan Astorga</td>
-                            <td>569778892</td>
-                            <td>juan@empresa1.com</td>
-                            <td>Juan Astorga</td>
-                            <td>569778892</td>
-                            <td>juan@empresa1.com</td>
-                            <td>Juan Astorga</td>
-                            <td>569778892</td>
-                            <td>juan@empresa1.com</td>
-                            <td>Juan Astorga</td>
-                            <td>569778892</td>
+                            <td>28392</td>
+                            <td>33</td>
+                            <td>$1.398.167</td>
+                            <td>$1.398.167</td>
+                            <td>$1.398.167</td>
+                            <td>$0</td>
+                            <td>$1.398.167</td>
+                            <td>78919770-9</td>
+                            <td>COMERCIALIZACION Y SERVICIOS HS PANELES LIMITADA</td>
+                            <td>Contempora Corredores De Bolsa de Productos S.A.</td>
+                            <td>05/07/2023</td>
+                            <td>PAGADOR</td>
+                            <td>11/07/2023</td>
+                            <td>En Custodia</td>
                             <td>
                               
-                              <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><a href="operaciones.php?detalleop=detalleop"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></a></button>
+                              <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><Link to="/VerOperacion"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></Link></button>
+                              
+                            </td>
+                          </tr>
+                          <tr>
+                          <td>4976</td>
+                            <td>33</td>
+                            <td>$1.931.370</td>
+                            <td>$1.931.370</td>
+                            <td>$1.931.370</td>
+                            <td>$0</td>
+                            <td>$1.931.370</td>
+                            <td>88842000-2</td>
+                            <td>VEOLIA SI CHILE S.A</td>
+                            <td>Contempora Corredores De Bolsa de Productos S.A.</td>
+                            <td>23/06/2023</td>
+                            <td>PAGADOR</td>
+                            <td>26/07/2023</td>
+                            <td>En Custodia</td>
+                            <td>
+                              
+                              <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><Link to="/VerOperacion"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></Link></button>
+                              
+                            </td>
+                          </tr>
+                          <tr>
+                          <td>4975</td>
+                            <td>33</td>
+                            <td>$2.344.300</td>
+                            <td>$2.344.300</td>
+                            <td>$2.344.300</td>
+                            <td>$0</td>
+                            <td>$2.344.300</td>
+                            <td>88842000-2</td>
+                            <td>VEOLIA SI CHILE S.A.</td>
+                            <td>Contempora Corredores De Bolsa de Productos S.A.</td>
+                            <td>23/06/2023</td>
+                            <td>PAGADOR</td>
+                            <td>2/07/2023</td>
+                            <td>En Custodia</td>
+                            <td>
+                              
+                              <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><Link to="/VerOperacion"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></Link></button>
                               
                             </td>
                           </tr>

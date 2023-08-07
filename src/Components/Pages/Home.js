@@ -45,7 +45,7 @@ export const Home = () => {
               <div className="small font-weight-bold titulocmp_small mb-1">Inversionista</div>
               <div className="h5 h5cmp">$0</div>
               <div className="text-xs font-weight-bold text-numbercmp d-inline-flex align-items-center">
-                <i className="mr-1" data-feather="trending-up" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trending-up mr-1"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
                 12%
               </div>
             </div>
@@ -63,7 +63,7 @@ export const Home = () => {
               <div className="small font-weight-bold titulocmp_small mb-1">Deudores</div>
               <div className="h5 h5cmp">$0</div>
               <div className="text-xs font-weight-bold text-numbercmp d-inline-flex align-items-center">
-                <i className="mr-1" data-feather="trending-down" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trending-down mr-1"><polyline points="23 18 13.5 8.5 8.5 13.5 1 6"></polyline><polyline points="17 18 23 18 23 12"></polyline></svg>
                 3%
               </div>
             </div>

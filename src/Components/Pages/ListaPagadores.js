@@ -39,35 +39,44 @@ export const ListaPagadores = () => {
                     <table className="table  table-hover" id="dataTable1" width="100%" cellSpacing={0}>
                         <thead>
                           <tr>
-                          <th>Rut</th>
-                            <th>Nombre</th>
+                          <th>Nombre</th>
+                            <th>Rut</th>
                             
                           
                           </tr>
                         </thead>
                         <tfoot>
                           <tr>
-                          <th>Rut</th>
-                            <th>Nombre</th>
+                          <th>Nombre</th>
+                            <th>Rut</th>
                             
                           
                           </tr>
                         </tfoot>
                         <tbody>
                           <tr>
-                            <td>569778892</td>
-                            <td>Juan Astorga</td>
+                            <td>TYPACK</td>
+                            <td>95874000-k</td>
                            
                           </tr>
                           <tr>
-                          <td>569778892</td>
-                            <td>Juan Astorga</td>
+                          <td>Contempora Factoring</td>
+                            <td>99562370-6</td>
                             
                           </tr>
                           <tr>
-                          <td>569778892</td>
-                            <td>Juan Astorga</td>
+                          <td>PROCESADORA DE ALIMENTOS DEL SUR LTDA.</td>
+                            <td>77476390-2</td>
                           </tr>
+                          <tr>
+                          <td>FAENADORA LO MIRANDA LTDA.</td>
+                            <td>78408440-K</td>
+                          </tr>
+                          <tr>
+                          <td>CERMAQ</td>
+                            <td>79784980-4</td>
+                          </tr>
+                          
                         </tbody>
                       </table>
                     </div>

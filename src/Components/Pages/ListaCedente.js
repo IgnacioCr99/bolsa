@@ -55,18 +55,13 @@ export const ListaCedente = () => {
                         </tfoot>
                         <tbody>
                           <tr>
-                            <td>569778892</td>
-                            <td>Juan Astorga</td>
+                            <td>96931540-8</td>
+                            <td>RECIPET S.A</td>
                            
                           </tr>
                           <tr>
-                          <td>569778892</td>
-                            <td>Juan Astorga</td>
-                            
-                          </tr>
-                          <tr>
-                          <td>569778892</td>
-                            <td>Juan Astorga</td>
+                          <td>99562370-6</td>
+                            <td>CONTEMPORA FACTORING S.A.</td>
                           </tr>
                         </tbody>
                       </table>
