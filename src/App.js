@@ -13,6 +13,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ListaPagosBolsa } from './Components/Pages/ListaPagosBolsa';
 import { ListaCedente } from './Components/Pages/ListaCedente';
 import { ListaPagadores } from './Components/Pages/ListaPagadores';
+import { ListaFactura } from './Components/Pages/ListaFactura';
+import { AgregarInversionista } from './Components/Pages/AgregarInversionista';
+import { VerFactura } from './Components/Pages/VerFactura';
+import { AgregarFactura } from './Components/Pages/AgregarFactura';
 
 function App() {
   return (
@@ -32,6 +36,10 @@ function App() {
         <Route path='/SaldoEnCustodia'element={<SaldoEnCustodia/>}/>
         <Route path='/ListaCedente' element={<ListaCedente/>}/>
         <Route path='/ListaPagadores' element={<ListaPagadores/>}/>
+        <Route path='/ListaFactura' element={<ListaFactura/>}/>
+        <Route path='/AgregarInversionista' element={<AgregarInversionista/>}/>
+        <Route path='/VerFactura' element={<VerFactura/>}/>
+        <Route path='/AgregarFactura' element={<AgregarFactura/>}/>
       </Routes>
       
       </div>

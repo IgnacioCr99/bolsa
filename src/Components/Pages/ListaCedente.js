@@ -45,14 +45,7 @@ export const ListaCedente = () => {
                           
                           </tr>
                         </thead>
-                        <tfoot>
-                          <tr>
-                          <th>Rut</th>
-                            <th>Nombre</th>
-                            
-                          
-                          </tr>
-                        </tfoot>
+                  
                         <tbody>
                           <tr>
                             <td>96931540-8</td>

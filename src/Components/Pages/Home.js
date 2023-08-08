@@ -10,7 +10,7 @@ export const Home = () => {
       <h1 className="mb-0 titulocmp">CMP Bolsa de Productos</h1>
       <div className="small pcmp_small">
         <span className="font-weight-500 titulocmp_small">Lunes</span>
-        · 20 junio 2021 · 12:16 PM
+        · 20 junio 2023 · 12:16 PM
       </div>
     </div>
     {/* Date range picker example button*/}

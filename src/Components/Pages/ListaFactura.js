@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export const ListaOperaciones = () => {
+export const ListaFactura = () => {
   return (
     <div id="layoutSidenav_content">
         
@@ -26,7 +26,7 @@ export const ListaOperaciones = () => {
 
   <div className="container mt-n10">
   <div className="card">
-  <div className="card-header">Listado Operaciones</div>
+  <div className="card-header">Listado Facturas</div>
     
       <div className="tab-content" id="cardTabContent">
         <div className="container">
@@ -39,7 +39,7 @@ export const ListaOperaciones = () => {
                     <div className="form-group mr-3 col">
                       
                         <div  className="btn btn-contempora2 btn-sm-col ">
-                          <Link to="/AgregarOperacion" ><span><i data-feather="upload" /> Agregar Operación</span></Link>
+                          <Link to="/AgregarFactura" ><span><i data-feather="upload" /> Agregar Factura</span></Link>
 
                         </div>
                       
@@ -132,7 +132,7 @@ export const ListaOperaciones = () => {
                         <td>103</td>
                         <td>
                           
-                          <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><Link to="/VerOperacion"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></Link></button>
+                          <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><Link to="/VerFactura"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></Link></button>
                           
                         </td>
                       </tr>
@@ -176,7 +176,7 @@ export const ListaOperaciones = () => {
                         <td>103</td>
                         <td>
                           
-                          <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><Link to="/VerOperacion"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></Link></button>
+                          <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><Link to="/VerFactura"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></Link></button>
                           
                         </td>
                       </tr>
@@ -220,7 +220,7 @@ export const ListaOperaciones = () => {
                         <td>103</td>
                         <td>
                           
-                          <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><Link to="/VerOperacion"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></Link></button>
+                          <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><Link to="/VerFactura"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></Link></button>
                           
                         </td>
                       </tr>
@@ -264,7 +264,7 @@ export const ListaOperaciones = () => {
                         <td>103</td>
                         <td>
                           
-                          <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><Link to="/VerOperacion"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></Link></button>
+                          <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><Link to="/VerFactura"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></Link></button>
                           
                         </td>
                       </tr>
@@ -286,7 +286,5 @@ export const ListaOperaciones = () => {
   </div>
 </footer>
 </div>
-
-
   )
 }

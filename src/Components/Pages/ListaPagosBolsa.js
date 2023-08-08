@@ -55,24 +55,7 @@ export const ListaPagosBolsa = () => {
                             <th>Estado Anterior</th>
                           </tr>
                         </thead>
-                        <tfoot>
-                          <tr>
-                          <th>Folio</th>
-                            <th>Tipo</th>
-                            <th>Monto Factura</th>
-                            <th>Monto Abono</th>
-                            <th>Monto Pagado PX.</th>
-                            <th>Monto Custodia</th>
-                            <th>Monto Pagado Tenedor</th>
-                            <th>Rut Pagador</th>
-                            <th>Pagador</th>
-                            <th>Vendedor</th>
-                            <th>Fecha Ult Abono</th>
-                            <th>Origen de Pago</th>
-                            <th>Fecha Vencimiento PTX</th>
-                            <th>Estado Anterior</th>
-                          </tr>
-                        </tfoot>
+                        
                         <tbody>
                           <tr>
                             <td>28393</td>
@@ -89,11 +72,7 @@ export const ListaPagosBolsa = () => {
                             <td>PAGADOR</td>
                             <td>11/07/2023</td>
                             <td>En Custodia</td>
-                            <td>
-                              
-                              <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><Link to="/VerOperacion"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></Link></button>
-                              
-                            </td>
+                            
                           </tr>
                           <tr>
                           <td>249</td>
@@ -110,11 +89,7 @@ export const ListaPagosBolsa = () => {
                             <td>DEPOSITATNTE</td>
                             <td>04/07/2023</td>
                             <td>En Custodia</td>
-                            <td>
-                              
-                              <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><Link to="/VerOperacion"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></Link></button>
-                              
-                            </td>
+                           
                           </tr>
                           <tr>
                             <td>28392</td>
@@ -131,11 +106,7 @@ export const ListaPagosBolsa = () => {
                             <td>PAGADOR</td>
                             <td>11/07/2023</td>
                             <td>En Custodia</td>
-                            <td>
-                              
-                              <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><Link to="/VerOperacion"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></Link></button>
-                              
-                            </td>
+                           
                           </tr>
                           <tr>
                           <td>4976</td>
@@ -152,11 +123,7 @@ export const ListaPagosBolsa = () => {
                             <td>PAGADOR</td>
                             <td>26/07/2023</td>
                             <td>En Custodia</td>
-                            <td>
-                              
-                              <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><Link to="/VerOperacion"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></Link></button>
-                              
-                            </td>
+                            
                           </tr>
                           <tr>
                           <td>4975</td>
@@ -173,11 +140,7 @@ export const ListaPagosBolsa = () => {
                             <td>PAGADOR</td>
                             <td>2/07/2023</td>
                             <td>En Custodia</td>
-                            <td>
-                              
-                              <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><Link to="/VerOperacion"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></Link></button>
-                              
-                            </td>
+                           
                           </tr>
                         </tbody>
                       </table>
@@ -192,7 +155,7 @@ export const ListaPagosBolsa = () => {
       <footer className="footer mt-auto footer-light">
   <div className="container-fluid">
     <div className="row">
-      <div className="col-md-6 small">Copyright © Contempora S.A 2020</div>
+      <div className="col-md-6 small">Copyright © Contempora S.A 2023</div>
     </div>
   </div>
 </footer>

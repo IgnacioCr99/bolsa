@@ -45,14 +45,7 @@ export const ListaPagadores = () => {
                           
                           </tr>
                         </thead>
-                        <tfoot>
-                          <tr>
-                          <th>Nombre</th>
-                            <th>Rut</th>
-                            
-                          
-                          </tr>
-                        </tfoot>
+                        
                         <tbody>
                           <tr>
                             <td>TYPACK</td>

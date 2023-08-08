@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const ListaInversionista = () => {
   return (
@@ -60,14 +61,14 @@ export const ListaInversionista = () => {
             <div className="form-group mr-3">
               <label htmlFor="fileupload">
                 <div className="btn btn-contempora2 btn-sm ">
-                  <a href="operaciones.php?crearop=crearop"><span><i data-feather="upload" /> Cargar Inversionista</span></a>
+                  <Link to="/AgregarInversionista"><span><i data-feather="upload" /> Crear Inversionista</span></Link>
                 </div>
               </label>
             </div> 
           </div>
         </div>
         <div className="datatable table-responsive">
-          <table className="table table-responsive table-bordered table-hover" id="dataTable1" width="100%" cellSpacing={0}>
+          <table className="table  table-bordered table-hover" id="dataTable1" width="100%" cellSpacing={0}>
             <thead>
               <tr>
                 <th>Rut</th>
@@ -83,7 +84,7 @@ export const ListaInversionista = () => {
                 <td>CAROLINA ANDREA MATUS DIAZ</td>
                 <td>
                   
-                  <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><a href="operaciones.php?detalleop=detalleop"><i data-feather="eye" /><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></a></button>
+                  <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><a href="operaciones.php?detalleop=detalleop"><i data-feather="eye" /><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg></a></button>
                   
                 </td>
               </tr>
@@ -93,7 +94,7 @@ export const ListaInversionista = () => {
                 <td>CAROLINA ANDREA MATUS DIAZ</td>
                 <td>
                   
-                  <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><a href="operaciones.php?detalleop=detalleop"><i data-feather="eye" /><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></a></button>
+                  <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><a href="operaciones.php?detalleop=detalleop"><i data-feather="eye" /><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg></a></button>
                   
                 </td>
               </tr>
@@ -103,7 +104,7 @@ export const ListaInversionista = () => {
                 <td>LEONARDO ERNESTO OLIVERI TOLEDO</td>
                 <td>
                   
-                  <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><a href="operaciones.php?detalleop=detalleop"><i data-feather="eye" /><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></a></button>
+                  <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><a href="operaciones.php?detalleop=detalleop"><i data-feather="eye" /><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg></a></button>
                   
                 </td>
               </tr>
@@ -113,7 +114,7 @@ export const ListaInversionista = () => {
                 <td>INVERSIONES AUQUINCO LIMITADA</td>
                 <td>
                   
-                  <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><a href="operaciones.php?detalleop=detalleop"><i data-feather="eye" /><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></a></button>
+                  <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><a href="operaciones.php?detalleop=detalleop"><i data-feather="eye" /><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg></a></button>
                   
                 </td>
               </tr>
@@ -123,7 +124,7 @@ export const ListaInversionista = () => {
                 <td>INVERSIONES AURORA S.A</td>
                 <td>
                   
-                  <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><a href="operaciones.php?detalleop=detalleop"><i data-feather="eye" /><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></a></button>
+                  <button className="btn btn-datatable btn-icon btn-transparent-dark mr-2"><a href="operaciones.php?detalleop=detalleop"><i data-feather="eye" /><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg></a></button>
                   
                 </td>
               </tr>

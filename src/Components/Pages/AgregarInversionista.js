@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const AgregarOperacion = () => {
+export const AgregarInversionista = () => {
   return (
     <div id="layoutSidenav_content">
     <main><header className="page-header page-header-dark bg-gradient-primary-to-secondary pb-10">
@@ -53,7 +53,7 @@ export const AgregarOperacion = () => {
   </div>
   <div className="col-xxl-12 col-xl-12 mt-5">
     <div className="card">
-      <div className="card-header">Agregar Operación</div>
+      <div className="card-header">Agregar Inversionista</div>
       <div className="card-body">
         <form>
           <div className="form-row">
@@ -133,6 +133,5 @@ export const AgregarOperacion = () => {
   </div>
 </footer>
   </div>
-  
   )
 }
